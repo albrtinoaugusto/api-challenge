@@ -63,7 +63,7 @@ Exemplo:
         "id":"SomIDGenCounTrY3kEy374658"
 }
 ```
-Nota: Nao é obrigatorio mandar todos campos, pode amndar somente os que precisa actualizar.<br/>
+Nota: não é obrigatorio mandar todos campos, pode amndar somente os que precisa actualizar.<br/>
 
 Resposta:
 ```javascript
@@ -91,7 +91,7 @@ Resposta:
 #Ordenar a lista dos países por qualquer uma das suas propriedades<br/>
 Metodo: [GET] https://challenge-rest-api.herokuapp.com/get-countries<br/>
 
-É so acrescentar o parametro (order) o valor respectivo a a propriedade pela pretende ordenar os paises<br/>
+É so acrescentar o parametro (order) e o valor respectivo à propriedade pela qual pretende ordenar os paises<br/>
 
 Exemplo: <br/>
 https://challenge-rest-api.herokuapp.com/get-countries?order=region<br/>
