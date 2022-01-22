@@ -3,7 +3,7 @@ API RESTful Challenge
 
 API feita com java e hospedada no Heroku
 
-#Adicionar pais<br/>
+#Adicionar país<br/>
 Metodo: [POST] <br/>
 https://challenge-rest-api.herokuapp.com/add-country
 
@@ -25,7 +25,7 @@ Resposta:
 }
 ```
 
-#Listar paises<br/>
+#Listar países<br/>
 Metodo: [GET] <br/>
 https://challenge-rest-api.herokuapp.com/get-countries
 
@@ -51,7 +51,7 @@ Resposta:
 ]
 ```
 
-#Actualizar o pais<br/>
+#Actualizar o país<br/>
 Metodo: [PUT] <br/>
 https://challenge-rest-api.herokuapp.com/update-country
 
@@ -75,7 +75,7 @@ Resposta:
 }
 ```
 
-#Eliminar um pais<br/>
+#Eliminar um país<br/>
 Metodo: [DELETE] <br/>
 https://challenge-rest-api.herokuapp.com/delete-country
 
