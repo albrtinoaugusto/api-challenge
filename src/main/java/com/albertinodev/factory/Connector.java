@@ -13,11 +13,11 @@ import java.sql.Statement;
 public class Connector
 {
 
-    private final String ip = "localhost";
+    private final String ip = "remotemysql.com";
     private final String port = "3306";
     private final String username = "root";
-    private final String password = "";
-    private final String dataBaseName = "challenge";   
+    private final String password = "sBPfi9R1F8";
+    private final String dataBaseName = "ufoCNL7gW4";   
 
     private Connection connection;
 
