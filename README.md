@@ -13,10 +13,10 @@ Exemplo:
     "capital" : "Brasília",
     "region" : "America do Sul",
     "subRegion" : "...",
-    "area" : "8.516 million km quadrados",
+    "area" : "8.516 million km quadrados"
 }
 ```
-<br/>
+
 Resposta: 
 ```javascript
 {
