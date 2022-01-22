@@ -7,6 +7,7 @@ API feita com java e hospedada no Heroku
 Metodo: [POST] https://challenge-rest-api.herokuapp.com/add-country
 
 Exemplo:
+```javascript
 {
     "name" : "Brazil",
     "capital" : "Brasília",
@@ -14,7 +15,8 @@ Exemplo:
     "subRegion" : "...",
     "area" : "8.516 million km quadrados",
 }
-
+```
+<br/>
 Resposta: 
 {
     "mensagem": "País adicionado com sucesso."
