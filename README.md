@@ -4,7 +4,8 @@ API RESTful Challenge
 API feita com java e hospedada no Heroku
 
 #Adicionar pais<br/>
-Metodo: [POST] https://challenge-rest-api.herokuapp.com/add-country
+Metodo: [POST] <br/>
+https://challenge-rest-api.herokuapp.com/add-country
 
 Exemplo:
 ```javascript
@@ -25,7 +26,8 @@ Resposta:
 ```
 
 #Listar paises<br/>
-Metodo: [GET] https://challenge-rest-api.herokuapp.com/get-countries
+Metodo: [GET] <br/>
+https://challenge-rest-api.herokuapp.com/get-countries
 
 Resposta: 
 ```javascript
@@ -50,7 +52,8 @@ Resposta:
 ```
 
 #Actualizar o pais<br/>
-Metodo: [PUT] https://challenge-rest-api.herokuapp.com/update-country
+Metodo: [PUT] <br/>
+https://challenge-rest-api.herokuapp.com/update-country
 
 Exemplo:
 ```javascript
@@ -73,7 +76,8 @@ Resposta:
 ```
 
 #Eliminar um pais<br/>
-Metodo: [DELETE] https://challenge-rest-api.herokuapp.com/delete-country
+Metodo: [DELETE] <br/>
+https://challenge-rest-api.herokuapp.com/delete-country
 
 Exemplo:
 ```javascript
@@ -89,7 +93,8 @@ Resposta:
 ```
 
 #Ordenar a lista dos países por qualquer uma das suas propriedades<br/>
-Metodo: [GET] https://challenge-rest-api.herokuapp.com/get-countries<br/>
+Metodo: [GET] <br/>
+https://challenge-rest-api.herokuapp.com/get-countries<br/>
 
 É so acrescentar o parametro (order) e o valor respectivo à propriedade pela qual pretende ordenar os paises<br/>
 
