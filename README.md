@@ -3,7 +3,7 @@ API RESTful Challenge
 
 API feita com java e hospedada no Heroku
 
-#Adicionar pais
+#Adicionar pais<br/>
 Metodo: [POST] https://challenge-rest-api.herokuapp.com/add-country
 
 Exemplo:
@@ -18,14 +18,17 @@ Exemplo:
 ```
 <br/>
 Resposta: 
+```javascript
 {
     "mensagem": "País adicionado com sucesso."
 }
+```
 
-#Listar paises
+#Listar paises<br/>
 Metodo: [GET] https://challenge-rest-api.herokuapp.com/get-countries
 
 Resposta: 
+```javascript
 [
     {
         "area": "801 537 kmÂ²",
@@ -44,12 +47,13 @@ Resposta:
         "region": "Sudoeste"
     }
 ]
+```
 
-
-#Actualizar o pais
+#Actualizar o pais<br/>
 Metodo: [PUT] https://challenge-rest-api.herokuapp.com/update-country
 
 Exemplo:
+```javascript
 {
         "area": "1000 100 km²",
         "capital": "Kerlim Mil",
@@ -58,40 +62,44 @@ Exemplo:
         "region": "Sudoeste Mil",
         "id":"SomIDGenCounTrY3kEy374658"
 }
-
+```
 Nota: Nao é obrigatorio mandar todos campos, pode amndar somente os que precisa actualizar.
 
-Resposta: 
+Resposta:
+```javascript
 {
     "mensagem": "País actualizado com sucesso."
 }
+```
 
-
-#Eliminar um pais
+#Eliminar um pais<br/>
 Metodo: [DELETE] https://challenge-rest-api.herokuapp.com/delete-country
 
 Exemplo:
+```javascript
 {
     "id": "SomIDGenCounTrY3kEy374658"
 }
-
-Resposta: 
+```
+Resposta:
+```javascript
 {
     "mensagem": "País eliminado com sucesso com sucesso."
 }
+```
 
-
-#Ordenar a lista dos países por qualquer uma das suas propriedades
+#Ordenar a lista dos países por qualquer uma das suas propriedades<br/>
 Metodo: [GET] https://challenge-rest-api.herokuapp.com/get-countries
 
-É so acrescentar o parametro (order) o valor respectivo a a propriedade pela pretende ordenar os paises
+É so acrescentar o parametro (order) o valor respectivo a a propriedade pela pretende ordenar os paises<br/>
 
-Exemplo: 
+Exemplo: <br/>
 https://challenge-rest-api.herokuapp.com/get-countries?order=region
 https://challenge-rest-api.herokuapp.com/get-countries?order=name
 ou https://challenge-rest-api.herokuapp.com/get-countries?order=region
 
 Resposta: 
+```javascript
 [
     {
         "area": "801 537 kmÂ²",
@@ -110,3 +118,4 @@ Resposta:
         "region": "Sudoeste"
     }
 ]
+```
